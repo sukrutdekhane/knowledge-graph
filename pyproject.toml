@@ -1,0 +1,20 @@
+[project]
+name = "knowledge-graph"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Sukrut Dekhane",email = "dekhanesd7@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "pymupdf (>=1.26.5,<2.0.0)",
+    "spacy (>=3.8.7,<4.0.0)",
+    "networkx (>=3.5,<4.0)",
+    "matplotlib (>=3.10.7,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
